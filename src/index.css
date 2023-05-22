@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin: 1rem;
+}
+.doc-name {
+  background-color: #f9fbfd;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  padding: 0.2em;
+  width: 100px;
+}
+.extention {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  background-color: #1a73e8;
+  text-decoration: none;
+  color: white;
+}
+.document-title {
+  display: flex;
+  align-items: center;
+}
+
+.menubar-btn {
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #202124;
+  padding: 0.1em 0.32em;
+}
+.menubar-btn:hover {
+  background-color: #e8ebee;
+}
+.share-btn {
+  margin: 1rem;
+  display: flex;
+  align-items: baseline;
+  text-decoration: none;
+  background-color: #c2e7ff;
+  color: #001d35;
+  padding: 0.65em 1.05em;
+  border-radius: 100px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.share-btn:hover {
+  background-color: #b2d7ef;
+}
+.side-pannel {
+  position: absolute;
+  list-style: none;
+  min-height: 70vh;
+  z-index: 3;
+  top: 6%;
+  left: 90%;
+}
+.side-pannel li {
+  border-radius: 50%;
+  margin: 1.3rem;
+}
+.toolbar {
+  padding: 0.36em;
+  background-color: #edf2fa;
+  border-radius: 50px;
+  width: 90%;
+}
+.toolbar-btn {
+  border-radius: 4px;
+  margin: 0.25rem;
+  padding: 0.16em 0.3em;
+}
+.toolbar-btn:hover {
+  background-color: rgba(143, 146, 144, 0.78);
+}
+.hide-header {
+  justify-self: end;
+  flex-grow: 1;
+}
+.main-body {
+  display: flex;
+  justify-content: center;
+  background-color: #f9fbfd;
+  min-height: 90vh;
+}
+.default-toolbar {
+  display: none;
+}
+.editor-container {
+  flex-grow: 1;
+}
+.editor {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  min-height: 75vh;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2em 5em;
+  border: 1px solid #e0e0e0;
+}
+.disabled {
+  cursor: not-allowed !important;
+  border-radius: 4px;
+  margin: 0.25rem;
+  padding: 0.16em 0.3em;
+}
