@@ -28,7 +28,7 @@ function Header() {
           }}
         >
           <div className="logo">
-            <img src="/src/assets/docs-logo.svg" alt="logo" />
+            <img src="/docs-logo.svg" alt="logo" />
           </div>
           <div>
             <div className="document-title">
@@ -47,11 +47,9 @@ function Header() {
                 </a>
               </div>
               <div>
-                <MenubarButton name={<img src="/src/assets/star-icon.svg" />} />
-                <MenubarButton name={<img src="/src/assets/move-icon.svg" />} />
-                <MenubarButton
-                  name={<img src="/src/assets/saved-icon.svg" />}
-                />
+                <MenubarButton name={<img src="/star-icon.svg" />} />
+                <MenubarButton name={<img src="/move-icon.svg" />} />
+                <MenubarButton name={<img src="/saved-icon.svg" />} />
               </div>
             </div>
             <div>
@@ -69,7 +67,7 @@ function Header() {
             <img
               width={"24px"}
               height={"24px"}
-              src="/src/assets/last-edit-icon.svg"
+              src="/last-edit-icon.svg"
               alt=""
             />
           </a>
@@ -77,23 +75,18 @@ function Header() {
             <img
               width={"24px"}
               height={"24px"}
-              src="/src/assets/add-comments-icon.svg"
+              src="/add-comments-icon.svg"
               alt=""
             />
           </a>
           <a href="#" className="share-btn">
-            <img src="/src/assets/globe-share-icon.svg" alt="" />
+            <img src="/globe-share-icon.svg" alt="" />
             <span style={{ marginRight: "0.7rem", marginLeft: "0.7rem" }}>
               Share
             </span>
           </a>
           <a href="#" style={{ margin: "0.4rem" }}>
-            <img
-              width={"24px"}
-              height={"24px"}
-              src="/src/assets/user-icon.svg"
-              alt=""
-            />
+            <img width={"24px"} height={"24px"} src="/user-icon.svg" alt="" />
           </a>
         </div>
       </div>

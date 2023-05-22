@@ -10,6 +10,7 @@ function App() {
         <div className="editor-container">
           <TextEditor />
         </div>
+
         <SidePannel />
       </div>
     </div>
